@@ -22,6 +22,7 @@ This project was written by ChatGPT via Codex desktop app. It was tested (by hum
 
 To enable the plugin, navigate to "Effects -> Auto-Save" and click on the only option there. You will be able to configure some config values and enable the plugin.
 It needs to be manually enabled each time you restart Paint.NET, it is **not** enabled by itself (and probably there is no way to make it so).
+
 The Paint.NET status bar shows the active document’s state, for example
 `Auto-Save: 3/10, 4:52`.
 
