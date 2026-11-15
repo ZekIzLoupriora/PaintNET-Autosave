@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net11.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Platforms>x64</Platforms>
+    <PlatformTarget>x64</PlatformTarget>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <PaintNetDir Condition="'$(PaintNetDir)' == ''">C:\Program Files\paint.net</PaintNetDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="PaintDotNet.ComponentModel" HintPath="$(PaintNetDir)\PaintDotNet.ComponentModel.dll" Private="false" />
+    <Reference Include="PaintDotNet.Base" HintPath="$(PaintNetDir)\PaintDotNet.Base.dll" Private="false" />
+    <Reference Include="PaintDotNet.Fundamentals" HintPath="$(PaintNetDir)\PaintDotNet.Fundamentals.dll" Private="false" />
+    <Reference Include="PaintDotNet.Effects.Core" HintPath="$(PaintNetDir)\PaintDotNet.Effects.Core.dll" Private="false" />
+    <Reference Include="PaintDotNet.FileTypes" HintPath="$(PaintNetDir)\PaintDotNet.FileTypes.dll" Private="false" />
+    <Reference Include="PaintDotNet.Primitives" HintPath="$(PaintNetDir)\PaintDotNet.Primitives.dll" Private="false" />
+    <Reference Include="PaintDotNet.Windows" HintPath="$(PaintNetDir)\PaintDotNet.Windows.dll" Private="false" />
+    <Reference Include="PaintDotNet.Windows.Core" HintPath="$(PaintNetDir)\PaintDotNet.Windows.Core.dll" Private="false" />
+    <Reference Include="PaintDotNet.Core" HintPath="$(PaintNetDir)\PaintDotNet.Core.dll" Private="false" />
+    <Reference Include="PaintDotNet.ObjectModel" HintPath="$(PaintNetDir)\PaintDotNet.ObjectModel.dll" Private="false" />
+  </ItemGroup>
+</Project>
