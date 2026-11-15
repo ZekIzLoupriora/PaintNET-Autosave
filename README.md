@@ -40,3 +40,12 @@ need adjustment for future Paint.NET releases.
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+## Paint.NET notice
+
+Paint.NET, PaintDotNet, and related names and marks belong to dotPDN LLC and
+their respective copyright holders. This repository does not include or
+redistribute Paint.NET binaries, source code, or assets. The project is a
+third-party plugin and expects the user to have Paint.NET installed locally;
+the project references those local assemblies only for building and loading
+the plugin.
