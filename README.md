@@ -4,6 +4,10 @@ An in-process Paint.NET 5.2 effect plugin targeting .NET 11. It provides
 configurable History-based and time-based recovery snapshots without modifying
 the live document.
 
+## AI Disclosure
+
+This project was written by ChatGPT via Codex desktop app. It was tested (by human) to make sure it works fine.
+
 ## Current behavior
 
 - Each open document has its own History counter and time-save countdown.
