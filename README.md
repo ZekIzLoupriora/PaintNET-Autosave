@@ -28,6 +28,28 @@ The Paint.NET status bar shows the active document’s state, for example
 
 ## Build
 
+### Install .NET 11 SDK
+
+The project requires the .NET 11 SDK, not only the runtime. On Windows 11,
+open PowerShell or Command Prompt and run:
+
+```powershell
+winget install Microsoft.DotNet.SDK.11
+```
+
+Close and reopen the terminal, then verify the installation:
+
+```powershell
+dotnet --list-sdks
+dotnet --version
+```
+
+The output should include an `11.0.x` SDK. If `winget` is unavailable, use
+the official [.NET 11 download page](https://dotnet.microsoft.com/download/dotnet/11.0)
+and install the Windows x64 SDK.
+
+### Build the plugin
+
 ```powershell
 dotnet build .\AutoSavePdnPoc\AutoSavePdnPoc.csproj -c Release
 ```
