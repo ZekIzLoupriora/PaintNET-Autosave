@@ -24,8 +24,10 @@ maintainer, who is responsible for the published result.
 - Settings are stored in
   `%LOCALAPPDATA%\Paint.NET\AutoSavePdnPoc\settings.json`.
 
-To enable the plugin, navigate to "Effects -> Auto-Save" and click on the only option there. You will be able to configure some config values and enable the plugin.
-It needs to be manually enabled each time you restart Paint.NET, it is **not** enabled by itself (and probably there is no way to make it so).
+To configure and enable the plugin, open **Effects → Auto-Save** and select
+the Auto-Save effect. Configure the desired options, then click **Save config
+and enable**. The plugin currently must be enabled manually after each
+Paint.NET restart; automatic startup activation is not implemented.
 
 The Paint.NET status bar shows the active document’s state, for example
 `Auto-Save: 3/10, 4:52`.
