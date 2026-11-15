@@ -60,7 +60,7 @@ dotnet build .\AutoSavePdnPoc\AutoSavePdnPoc.csproj -c Release
 
 The project references the Paint.NET 5.2 assemblies from
 `C:\Program Files\paint.net`. Copy the resulting
-`AutoSavePdnPoc.dll` to Paint.NET’s Effects directory (`C:\Program Files\Paint.NET\Effects` for system-wide install and `Documents\paint.net App Files\Effects` for per-user install)
+`AutoSavePdnPoc.dll` to Paint.NET’s Effects directory (`C:\Program Files\Paint.NET\Effects` for system-wide install or `Documents\paint.net App Files\Effects` for per-user install)
 
 ## Compatibility notes
 
