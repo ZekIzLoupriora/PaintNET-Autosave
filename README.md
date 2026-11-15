@@ -6,7 +6,11 @@ the live document.
 
 ## AI Disclosure
 
-This project was written by ChatGPT via Codex desktop app. It was tested (by human) to make sure it works fine.
+This project was developed with substantial assistance from ChatGPT through the
+Codex desktop app. AI assistance was used for investigation, implementation,
+debugging, documentation, and release preparation. The project direction,
+testing, configuration decisions, and final review were provided by the human
+maintainer, who is responsible for the published result.
 
 ## Current behavior
 
