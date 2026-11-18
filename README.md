@@ -24,6 +24,8 @@ maintainer, who is responsible for the published result.
 - Settings are stored in
   `%LOCALAPPDATA%\Paint.NET\AutoSavePdnPoc\settings.json`.
 
+### WARNING: Snapshot folder *will* bloat up over time, as automatic cleanup is not yet implemented!
+
 To configure and enable the plugin, open **Effects → Auto-Save** and select
 the Auto-Save effect. Configure the desired options, then click **Save config
 and enable**. The plugin currently must be enabled manually after each
@@ -40,8 +42,7 @@ Grab the latest version from the [Releases](https://github.com/ZekIzLoupriora/Pa
 
 ### Install .NET 11 SDK
 
-The project requires the .NET 11 SDK, not only the runtime. On Windows 11,
-open PowerShell or Command Prompt and run:
+On Windows 11, open PowerShell or Command Prompt and run:
 
 ```powershell
 winget install Microsoft.DotNet.SDK.11
