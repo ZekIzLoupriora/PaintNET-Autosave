@@ -32,6 +32,10 @@ Paint.NET restart; automatic startup activation is not implemented.
 The Paint.NET status bar shows the active document’s state, for example
 `Auto-Save: 3/10, 4:52`.
 
+## Install
+
+Grab the latest version from the [Releases](https://github.com/ZekIzLoupriora/PaintNET-Autosave/releases/latest) page and follow installation instructions there, or build it yourself.
+
 ## Build
 
 ### Install .NET 11 SDK
